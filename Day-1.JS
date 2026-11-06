@@ -1,0 +1,1 @@
+console.log("I am coding Java Script DAY 1");
