@@ -1,1 +1,1 @@
-console.log("I am coding Java Script DAY 1");
+console.log(3.78);
