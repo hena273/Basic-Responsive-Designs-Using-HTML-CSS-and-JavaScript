@@ -1,10 +1,4 @@
-string1="Henok";
-string2="Gezahegn";
-console.log("string1 " + string2);
-console.log(string1.concat(" ", string2));
-console.log(string1[string1.length - 1]);
-console.log(string1[string1.length - 2]);
-console.log(string1[string1.length - 3]);
-console.log(string1[string1.length - 4]);
-console.log(string1[string1.length - 5]);
-console.log(string1.length);
+string1="Henok Gezahegn is a 3rd year Software Engineering student at Addis Ababa University.\n He is passionate about web development and has experience in building responsive web applications using modern technologies.\n Henok is also interested in machine learning and data science, and he enjoys working on projects that involve data analysis and visualization.";
+console.log(string1.indexOf("Visualization", 0));
+
+
