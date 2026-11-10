@@ -1,0 +1,10 @@
+string1="Henok";
+string2="Gezahegn";
+console.log("string1 " + string2);
+console.log(string1.concat(" ", string2));
+console.log(string1[string1.length - 1]);
+console.log(string1[string1.length - 2]);
+console.log(string1[string1.length - 3]);
+console.log(string1[string1.length - 4]);
+console.log(string1[string1.length - 5]);
+console.log(string1.length);
