@@ -1,0 +1,13 @@
+console.log("Hello! I'm your coding fun fact guide!");
+let botName = "quill";
+let botLocation ="Ethiopia";
+const favoriteLanguage = "Java";
+console.log("My name is " + botName + " and I live in " + botLocation + ".");
+console.log("My favorite programming language is " + favoriteLanguage + ".");
+let codingFact ="Did you know that " + favoriteLanguage + " is one of the most popular programming languages in the world?";
+console.log(codingFact);
+codingFact="Another fun fact is that " + favoriteLanguage + " was originally developed by James Gosling at Sun Microsystems and released in 1995.";
+console.log(codingFact);
+codingFact="Also, " + favoriteLanguage + " is known for its 'write once, run anywhere' capability, meaning that code written in Java can run on any device that has a Java Virtual Machine (JVM).";
+console.log(codingFact);
+console.log("It was fun sharing these facts with you. Goodbye! - " + botName + " from " + botLocation + ".");
