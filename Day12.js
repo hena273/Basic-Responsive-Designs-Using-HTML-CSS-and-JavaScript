@@ -1,7 +1,13 @@
 function maskEmail(email) {
-   const slicedEmail=email.slice(1,-11);
-   const replaceAsterik=email.replace(slicedEmail,"*".repeat(slicedEmail.length));
-   return replaceAsterik;
+  const atIndex = email.indexOf("@");
+  const firstChar = email[0];
+  const lastCharBeforeAt = email[atIndex - 1];
+  const domain = email.slice(atIndex);
+  const middleLength = Math.max(0, atIndex - 2);
+  const stars = "*".repeat(middleLength);
+
+  return firstChar + stars + lastCharBeforeAt + domain;
 }
-let email="michaeleshetu210@gmail.com"
+
+let email = "user@example.com";
 console.log(maskEmail(email));
