@@ -1,20 +1,42 @@
-const fortune1="Henok"
-const fortune2="Nahom"
-const fortune3="Meron"
-const fortune4="Kidus"
-const fortune5="Behager"
-
-const randomNumber=Math.floor(Math.random()*5 + 1)
-let selectedFortune;
-if (randomNumber === 1){
-  selectedFortune=fortune1
-}else if (randomNumber === 2) {
-  selectedFortune=fortune2
-}else if (randomNumber === 3) {
-  selectedFortune=fortune3
-}else if (randomNumber === 4) {
-  selectedFortune=fortune4
-}else {
-  selectedFortune=fortune5
+function calculateSum(num1, num2) {
+  return num1 + num2;
 }
-console.log(selectedFortune)
+
+console.log(calculateSum(2, 5));
+console.log(calculateSum(10, 10));
+console.log(calculateSum(5, 5));
+
+function calculateDifference(num1, num2) {
+  return num1 - num2;
+}
+
+console.log(calculateDifference(22, 5));
+console.log(calculateDifference(12, 1));
+console.log(calculateDifference(17, 9));
+
+function calculateProduct(num1, num2) {
+  return num1 * num2;
+}
+
+console.log(calculateProduct(13, 5));
+
+function calculateQuotient(num1, num2) {
+  return num2 === 0 ? "Error: Division by zero" : num1 / num2;
+}
+
+console.log(calculateQuotient(7, 11));
+console.log(calculateQuotient(3, 0));
+
+function calculateSquare(num) {
+  return num ** 2;
+}
+
+console.log(calculateSquare(2));
+console.log(calculateSquare(9));
+
+function calculateSquareRoot(num) {
+  return Math.sqrt(num);
+}
+
+console.log(calculateSquareRoot(25));
+console.log(calculateSquareRoot(100));
